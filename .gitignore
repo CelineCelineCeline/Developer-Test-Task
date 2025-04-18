@@ -1,0 +1,26 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore OS metadata
+*.swp
+*.swo
+
+# Ignore IDE/editor configs
+.idea/
+
+# Ignore environment or cache files
+.env
+*.zip
+*.tar.gz
+
+
+# macOS Finder metadata
+.AppleDouble
+.LSOverride
+
+# Shopify theme-specific
+config/settings_data.json
