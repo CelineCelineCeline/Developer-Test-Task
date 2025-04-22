@@ -4,24 +4,19 @@
     gap: 2rem;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 5rem;
 }
 
 .product-gallery-wrapper {
     flex: 1;
-    max-width: 37.5rem;
+    max-width: 60rem;
     display: flex;
     gap: 2rem;
-    align-items: flex-start;
-}
-
-.product-info-box {
-    flex: 1;
-    max-width: 28.125rem;
+    align-items: center;
 }
 
 .thumb-swiper {
-    width: 6.25rem;
-    height: 30rem;
+    height: 43rem;
 }
 
 .thumb-swiper .swiper-slide {
@@ -45,8 +40,8 @@
 }
 
 .main-swiper {
-    width: 30rem;
-    height: 30rem;
+    width: 48rem;
+    height: 48rem;
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -61,33 +56,32 @@
 .swiper-nav {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    margin-top: 1rem;
+    gap: 1.2rem;
+    margin-top: 3rem;
 }
 
-.product-gallery-wrapper .swiper-button-prev,
-.product-gallery-wrapper .swiper-button-next {
-    color: black !important;
+.swiper-button-prev,
+.swiper-button-next {
+    color: black;
     cursor: pointer;
-    position: static !important;
-    transform: none !important;
+    position: static;
+    transform: none;
 }
 
-.product-gallery-wrapper .swiper {
-    --swiper-navigation-size: 1.2rem !important;
+.swiper {
+    --swiper-navigation-size: 1.2rem;
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
     color: #000000;
-    font-size: 1.2rem !important;
+    font-size: 1.2rem;
 }
-
-
 
 /*Product Info*/
 .product-info-box {
-    max-width: 30rem;
+    max-width: 47.5rem;
+    flex: 1;
     padding: 2rem;
     border: 1px solid #e0e0e0;
     border-radius: 0.8rem;
@@ -97,23 +91,17 @@
 }
 
 .product-title {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: 600; /* SemiBold */
-    margin-bottom: 0.5rem;
-}
-
-.product-subtitle {
-    font-size: 1.2rem;
-    font-weight: 500; /* Medium */
-    margin-bottom: 1.2rem;
-    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
 }
 
 .product-description {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    color: #333;
-    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 500; /* Medium */
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
 }
 
 .product-pricing {
@@ -124,28 +112,31 @@
 }
 
 .old-price {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     text-decoration: line-through;
-    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
 }
 
 .new-price {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    color: #1a33ff;
+    font-family: 'Montserrat', sans-serif;
+    color: #1F47FF;
 }
 
 .vat-text {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 500; /* Medium */
     color: #000000;
 }
 
 .stock-status {
+    font-size: 1.5rem ;
     display: flex;
     align-items: center;
-    font-size: 1rem;
-    color: #34a853;
+    color: #25A525;
     margin-bottom: 2rem;
     font-weight: 500;
 }
@@ -154,17 +145,17 @@
     width: 0.6rem;
     height: 0.6rem;
     border-radius: 50%;
-    background-color: #34a853;
+    background-color: #25A525;
     margin-right: 0.6rem;
 }
 
 .add-to-cart-btn {
     width: 100%;
     padding: 1rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-    background-color: #1a33ff;
-    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #1F47FF;
+    color: #FFFFFF;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -180,38 +171,150 @@
 /*Trust Section*/
 .trust-icons {
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
     flex-wrap: wrap;
+    gap: 22rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5rem;
 }
 
 .trust-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
-    gap: 0.5rem;
+    text-align: left;
+    gap: 1.5rem;
 }
 
 .trust-block img {
-    width: 6rem;
-    height: 6rem;
+    width: 3rem;
+    height: 4rem;
     margin-bottom: 0.8rem;
 }
 
 .trust-title {
-    font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500; /* Medium */
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
     margin: 0;
 }
 
 .trust-subtitle {
-    font-weight: 400;
-    font-size: 1rem;
-    color: #555;
+    font-size: 1.8rem;
+    font-weight: 400; /* Medium */
+    font-family: 'Montserrat', sans-serif;
+    color: #383838;
     margin: 0;
 }
 
+@media (max-width: 767px) {
+    body{
+        padding: 0 0.1rem;
+        overflow-x: hidden !important;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next,
+    .thumb-swiper {
+        display: none;
+    }
+
+    .main-gallery-area {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .main-swiper {
+        height: auto;
+        width: 95%;
+        max-width: 35rem;
+        overflow: visible;
+        aspect-ratio: 1/1;
+    }
+
+    .swiper-pagination {
+        position: static;
+        bottom: 0;
+        width: 100%;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    .swiper-pagination-bullet{
+        background: #F8F8F8;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #E5E5E5;
+    }
+
+    .product-info-box{
+        width: 90%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .product-title {
+        font-size: 2.2rem;
+    }
+
+    .product-description {
+        font-size: 1.6rem;
+    }
+
+    .old-price {
+        font-size: 1.6rem;
+    }
+
+    .new-price {
+        font-size: 1.6rem;
+    }
+
+    .stock-status {
+        font-size: 1.6rem ;
+    }
+
+    .trust-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.9rem;
+        width: 100%;
+        max-width: 390px;
+        margin: 0 auto 10rem auto;
+    }
+
+    .trust-block {
+        gap: 2.5rem;
+    }
+
+    .trust-block img {
+        height: auto;
+        margin: 0;
+    }
+
+    .trust-title {
+        font-size: 1.6rem; /* 16px */
+        text-align: left;
+        margin: 0;
+    }
+
+    .trust-subtitle {
+        font-weight: 400; /* Regular */
+        font-size: 1.6rem; /* 16px */
+        line-height: 1.9rem; /* 19px */
+        color: #383838;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .swiper-pagination {
+        display: none;
+    }
+}
